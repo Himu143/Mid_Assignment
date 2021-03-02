@@ -12,5 +12,14 @@ namespace Mid_Assignment
         private string accountName;
         private double balance;
         private Address address;
+
+        public Account(int accountNumber, string accountName, double balance, Address address)
+        {
+            this.accountNumber = accountNumber;
+            this.accountName = accountName;
+            this.balance = balance;
+            this.address = address;
+    
+        }
     }
 }
