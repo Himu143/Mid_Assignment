@@ -1,0 +1,7 @@
+D:\Git-hub\Mid assignment\Mid_Assignment\obj\Debug\Mid_Assignment.csprojAssemblyReference.cache
+D:\Git-hub\Mid assignment\Mid_Assignment\obj\Debug\Mid_Assignment.csproj.CoreCompileInputs.cache
+D:\Git-hub\Mid assignment\Mid_Assignment\bin\Debug\Mid_Assignment.exe.config
+D:\Git-hub\Mid assignment\Mid_Assignment\bin\Debug\Mid_Assignment.exe
+D:\Git-hub\Mid assignment\Mid_Assignment\bin\Debug\Mid_Assignment.pdb
+D:\Git-hub\Mid assignment\Mid_Assignment\obj\Debug\Mid_Assignment.exe
+D:\Git-hub\Mid assignment\Mid_Assignment\obj\Debug\Mid_Assignment.pdb

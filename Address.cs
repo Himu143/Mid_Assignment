@@ -43,7 +43,9 @@ namespace Mid_Assignment
         }
         public string GetAddress()
         {
-            Console.WriteLine("RoadNo:{0}")
+            Console.WriteLine("RoadNo:{0}\n,HouseNo:{1}\n,City:{2}\n,Country:{3}",this.roadNo,this.houseNo,this.city,this.country);
+            return GetAddress();
         }
     }
 }
+
