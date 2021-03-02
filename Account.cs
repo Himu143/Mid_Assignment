@@ -26,5 +26,20 @@ namespace Mid_Assignment
             set { this.accountNumber= value ; }
             get { return this.accountNumber; }
         }
+        public string AccountName
+        {
+            set { this.accountName = value; }
+            get { return this.accountName; }
+        }
+        public double Balance
+        {
+            set { this.Balance = value; }
+            get { return this.Balance; }
+        }
+        public   Address Address
+        {
+            set { this.address = value; }
+            get { return this.address; }
+        }
     }
 }
