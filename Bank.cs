@@ -27,6 +27,20 @@ namespace Mid_Assignment
                 }
             }
         }
+        public void DeleteAccount(int accountNumber)
+        {
+            for (int i=0; i< myBank.Length; i++)
+            {
+                if(myBank[i]==null)
+                {
+                    continue;
+                }
+                else if (myBank[i].AccountNumber==accountNumber)
+                {
+
+                }
+            }
+        }
        
     }
 }
