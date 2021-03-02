@@ -16,6 +16,10 @@ namespace Mid_Assignment
             this.bankName = bankName;
             this.myBank = new Account[size];
         }
+        public void AddAccount(Account account)
+        {
+            
+        }
        
     }
 }
