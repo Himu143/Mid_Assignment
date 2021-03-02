@@ -22,7 +22,7 @@ namespace Mid_Assignment
             {
                 if(myBank[i]==null)
                 {
-                    myBank[i] = amount;
+                    myBank[i] = account;
                     break;
                 }
             }
