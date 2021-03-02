@@ -18,7 +18,14 @@ namespace Mid_Assignment
         }
         public void AddAccount(Account account)
         {
-            
+            for(int i=0; i<myBank.Length; i++)
+            {
+                if(myBank[i]==null)
+                {
+                    myBank[i] = amount;
+                    break;
+                }
+            }
         }
        
     }
