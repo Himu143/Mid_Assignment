@@ -57,6 +57,10 @@ namespace Mid_Assignment
             }
            
         }
+        public void Deposit(double amount)
+        {
+            if
+        }
         public void PrintAccountDetails()
         {
             Console.WriteLine("Account No:{0}\nAccount Name:{1}\nBalance{2}", this.AccountNumber, this.accountName, this.balance);
