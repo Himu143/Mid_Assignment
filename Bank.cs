@@ -46,7 +46,17 @@ namespace Mid_Assignment
                 }
             }
         }
-        
+        public void PrintAccountDetails()
+        {
+            for(int i=0; i<myBank.Length; i++)
+            {
+                if(myBank[i].AccountNumber==null)
+                {
+                    continue;
+                }
+                myBank[i].PrintAccountDetails();
+            }
+        }
        
     }
 }
