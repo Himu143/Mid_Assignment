@@ -9,6 +9,11 @@ namespace Mid_Assignment
     class Bank
     {
         private string bankName;
-        public Account[] myBanj;
+        public Account[] myBank;
+
+    public Bank(string bankName,int size)
+        {
+            this.myBank = new Account[size];
+        }
     }
 }
