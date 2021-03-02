@@ -13,6 +13,7 @@ namespace Mid_Assignment
 
     public Bank(string bankName,int size)
         {
+            this.bankName = bankName;
             this.myBank = new Account[size];
         }
     }
