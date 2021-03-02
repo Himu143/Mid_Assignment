@@ -8,6 +8,7 @@ namespace Mid_Assignment
 {
     class Bank
     {
-
+        private string bankName;
+        public Account[] myBanj;
     }
 }
