@@ -10,6 +10,8 @@ namespace Mid_Assignment
     {
         static void Main(string[] args)
         {
+            Bank bank = new Bank("DBBL", 5);
+            bank.AddAccount(new Account(1001, "Himu",60000, new Address))
         }
     }
 }
