@@ -41,9 +41,12 @@ namespace Mid_Assignment
             set { this.address = value; }
             get { return this.address; }
         }
-        public void Withdraw(double)
+        public void Withdraw(double amount)
         {
-           if(amount)
+           if(amount > 0 && amount <=balance)
+            {
+                
+            }
         }
     }
 }
