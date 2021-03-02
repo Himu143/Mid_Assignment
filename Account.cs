@@ -53,7 +53,7 @@ namespace Mid_Assignment
             }
             else
             {
-                return ;
+                //return false;
             }
            
         }
@@ -65,11 +65,11 @@ namespace Mid_Assignment
                 Console.WriteLine("Deposit amount:" + amount);
                 balance += amount;
                 Console.WriteLine("Current Balance:" + balance);
-               // return true;
+                //return true;
             }
             else
             {
-                return ;
+               // return false;
             }
         }
         public void PrintAccountDetails()
