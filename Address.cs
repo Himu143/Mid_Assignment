@@ -20,5 +20,11 @@ namespace Mid_Assignment
             this.city = city;
             this.country = country;
         }
+
+        public string RoadNo
+        {
+            set { this.roadNo = value; }
+            get { return this.roadNo; }
+        }
     }
 }
