@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Mid_Assignment
 {
-    class Class1
+    class Address
     {
+        private string roadNo;
+        private string houseNo;
+        private string city;
+        private string country;
+
+    public Address (string roadNo, string houseNo, string city, string country)
+        {
+            this.roadNo = roadNo;
+            this.houseNo = houseNo;
+            this.city = city;
+            this.country = country;
+        }
     }
 }
