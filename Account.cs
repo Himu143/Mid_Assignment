@@ -21,5 +21,10 @@ namespace Mid_Assignment
             this.address = address;
     
         }
+        public int AccountNumber
+        {
+            set { this.accountNumber= value ; }
+            get { return this.accountNumber; }
+        }
     }
 }
