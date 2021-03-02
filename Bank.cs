@@ -37,10 +37,16 @@ namespace Mid_Assignment
                 }
                 else if (myBank[i].AccountNumber==accountNumber)
                 {
-
+                    myBank[i] = null;
+                    for(int j=1; j<(myBank.Length-1); j++)
+                    {
+                        myBank[j] = myBank[j + 1];
+                    }
+                    Console.WriteLine("Account Deleted");
                 }
             }
         }
+        
        
     }
 }
