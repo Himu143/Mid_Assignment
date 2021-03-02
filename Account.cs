@@ -53,7 +53,7 @@ namespace Mid_Assignment
             }
             else
             {
-                Console.WriteLine("Withdraw");
+                Console.WriteLine("Account is not found");
             }
            
         }
@@ -69,7 +69,7 @@ namespace Mid_Assignment
             }
             else
             {
-                Console.WriteLine("Deposite unsuccessful");
+                Console.WriteLine("Account is not found");
             }
         }
         public void PrintAccountDetails()
