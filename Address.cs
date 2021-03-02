@@ -41,5 +41,9 @@ namespace Mid_Assignment
             set { this.country = value; }
             get { return this.country; }
         }
+        public string GetAddress()
+        {
+            Console.WriteLine("RoadNo:{0}")
+        }
     }
 }
