@@ -43,7 +43,7 @@ namespace Mid_Assignment
         }
         public void Withdraw(double amount)
         {
-           if(amount > 0 && amount <=balance)
+            if (amount > 0 && amount <= balance)
             {
                 Console.WriteLine("Previous Balance :" + balance);
                 Console.WriteLine("Withdraw Amount :" + amount);
@@ -51,9 +51,15 @@ namespace Mid_Assignment
                 Console.WriteLine("Current Balance:" + balance);
 
             }
+            else
             {
-                return;
+                return ;
             }
+           
+        }
+        public void PrintAccountDetails()
+        {
+            Console.WriteLine("Account No:{0}\nAccount Name:{1}\nBalance{2}", this.AccountNumber, this.accountName, this.balance);
         }
     }
 }
