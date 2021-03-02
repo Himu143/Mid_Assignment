@@ -45,7 +45,14 @@ namespace Mid_Assignment
         {
            if(amount > 0 && amount <=balance)
             {
-                
+                Console.WriteLine("Previous Balance :" + balance);
+                Console.WriteLine("Withdraw Amount :" + amount);
+                balance -= amount;
+                Console.WriteLine("Current Balance:" + balance);
+
+            }
+            {
+                return;
             }
         }
     }
