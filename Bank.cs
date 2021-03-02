@@ -31,7 +31,7 @@ namespace Mid_Assignment
         {
             for (int i=0; i< myBank.Length; i++)
             {
-                if(myBank[i]==null)
+                if(myBank[i]==null )
                 {
                     continue;
                 }

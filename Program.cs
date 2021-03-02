@@ -14,7 +14,7 @@ namespace Mid_Assignment
             bank.AddAccount(new Account(1001, "Himu", 60000, new Address("20", "123", "Dhaka", "Country")));
             bank.AddAccount(new Account(1002, "Hasan", 50000, new Address("23", "143", "Dhaka", "Country")));
             bank.PrintAccountDetails();
-            bank.DeleteAccount(1001);
+           bank.DeleteAccount(1001);
         }
     }
 }

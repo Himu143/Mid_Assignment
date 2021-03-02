@@ -49,11 +49,11 @@ namespace Mid_Assignment
                 Console.WriteLine("Withdraw Amount :" + amount);
                 balance -= amount;
                 Console.WriteLine("Current Balance:" + balance);
-                //return true;
+             
             }
             else
             {
-                //return false;
+                Console.WriteLine("Withdraw");
             }
            
         }
@@ -65,11 +65,11 @@ namespace Mid_Assignment
                 Console.WriteLine("Deposit amount:" + amount);
                 balance += amount;
                 Console.WriteLine("Current Balance:" + balance);
-                //return true;
+               
             }
             else
             {
-               // return false;
+                Console.WriteLine("Deposite unsuccessful");
             }
         }
         public void PrintAccountDetails()
