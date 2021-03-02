@@ -49,7 +49,7 @@ namespace Mid_Assignment
                 Console.WriteLine("Withdraw Amount :" + amount);
                 balance -= amount;
                 Console.WriteLine("Current Balance:" + balance);
-
+                //return true;
             }
             else
             {
@@ -59,7 +59,18 @@ namespace Mid_Assignment
         }
         public void Deposit(double amount)
         {
-            if
+            if (amount>0)
+            {
+                Console.WriteLine("Previous Balance:" + balance);
+                Console.WriteLine("Deposit amount:" + amount);
+                balance += amount;
+                Console.WriteLine("Current Balance:" + balance);
+               // return true;
+            }
+            else
+            {
+                return ;
+            }
         }
         public void PrintAccountDetails()
         {
